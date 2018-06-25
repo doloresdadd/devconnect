@@ -2,6 +2,10 @@ import React, {
   Component
 } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import jwt_decode from 'jwt-decode';
+import setAuthToken from './utils/setAuthToken';
+import { setCurrentUser} from './actions/authActions';
+
 import { Provider } from 'react-redux';
 import store from './store';
 
@@ -13,6 +17,10 @@ import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 
 import './App.css';
+
+//Check for token 
+
+
 
 
 
