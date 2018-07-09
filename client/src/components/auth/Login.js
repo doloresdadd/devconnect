@@ -61,7 +61,7 @@ class Login extends Component {
                 Sign in to your DevConnector account
               </p>
               <form onSubmit={this.onSubmit}>
-              <TextFieldGroup
+                <TextFieldGroup
                   placeholder="Email Address"
                   name="email"
                   type="email"
@@ -78,8 +78,6 @@ class Login extends Component {
                   onChange={this.onChange}
                   error={errors.password}
                 />
-                
-                
                 <input type="submit" className="btn btn-info btn-block mt-4" />
               </form>
             </div>

@@ -8,8 +8,7 @@ const TextAreaFieldGroup = ({
   value,
   error,
   info,
-  onChange,
-  
+  onChange
 }) => {
   return (
     <div className="form-group">
@@ -36,6 +35,5 @@ TextAreaFieldGroup.propTypes = {
   error: PropTypes.string,
   onChange: PropTypes.func.isRequired
 };
-
 
 export default TextAreaFieldGroup;
